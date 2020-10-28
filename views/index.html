@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="welcome-container">
+    <div class="welcome-container" id="welcome">
       <div class="welcome">
-        <div class="main">
+        <div class="main" onclick="changeColor()">
           <span id="name">ДМИТРИЙ КАБАРУХИН</span><span id="profession">, web developer</span>
         </div>
         <div class="menu">
@@ -14,13 +14,14 @@
         </div>
       </div>
     </div>
+
     <div class="about-container" id="about">
       <div class="about">
         <div class="menu">
             <a href="#"><- назад</a> / <a href="#contacts">Контакты</a> / <a target="_blank" href='https://github.com/theDimZone'>GitHub</a>
         </div>
         <div class="about-main">
-          <img src="https://i.pinimg.com/originals/6d/68/9b/6d689b703b1fa92ac508358951e8a624.png">
+          <img onclick="changeAvatar()" src="/images/hero.png" id="avatar">
           <div class="desc">
             <ul>
               <li>

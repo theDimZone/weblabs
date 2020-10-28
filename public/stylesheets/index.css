@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-
   font-family: 'Open Sans', sans-serif;
 }
 
 .about-container,
-.contacts-container {
+.contacts-container,
+.welcome-container {
     position: absolute;
     left: 0px;
     width: 100%;
+
     background-color: #214252;
 }
 
 .about,
-.contacts {
+.contacts,
+.welcome {
   width: 70%;
   height: 70%;
   margin: auto;
   position: absolute;
-
   top: 0; left: 0; bottom: 0; right: 0;
-  /*text-align: center;*/
 
   color: #f05454;
 }
@@ -46,14 +46,15 @@ body {
   font-size: 25px;
   padding: 1.2em;
   padding-bottom: 0.2em;
-
   border-radius: 5px;
+
   border: 1px solid #f05454;
 }
 
 .contacts-main {
-  background-color: #214252;
   padding-bottom: 1.2em;
+
+  background-color: #214252;
   border: 1px solid #ce6262;
 }
 
@@ -61,17 +62,15 @@ body {
   background-color: #af2d2d;
 }
 
-
 .welcome {
   width: 70%;
   height: 50%;
-  margin: auto;
-  position: absolute;
-
-  top: 0; left: 0; bottom: 0; right: 0;
   text-align: center;
-
   color: #f05454;
+}
+
+.welcome-container {
+    background-color: #ffffff;
 }
 
 .main {

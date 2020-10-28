@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cool = require('cool-ascii-faces')
-const port = 3000
+const port = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 
