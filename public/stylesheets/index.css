@@ -61,10 +61,6 @@ body {
   background-color: #af2d2d;
 }
 
-.contacts {
-  width: 40%;
-  height: 30%;
-}
 
 .welcome {
   width: 70%;
@@ -95,7 +91,7 @@ body {
 
 .menu a,
 .contacts-main a {
-    color: #f05454;
+  color: #f05454;
 }
 
 .menu a:hover,
