@@ -1,3 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-  background-color: #e8e8e8;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-container,
+.contacts-container {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background-color: #214252;
+}
+
+.about,
+.contacts {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+
+  top: 0; left: 0; bottom: 0; right: 0;
+  /*text-align: center;*/
+
+  color: #f05454;
+}
+
+.desc {
+  display: inline-block;
+}
+
+.about img {
+  display: inline;
+  width: 30%;
+}
+
+.contacts img {
+  display: inline;
+  width: 7%;
+}
+
+.about-main,
+.contacts-main,
+.main {
+  font-size: 25px;
+  padding: 1.2em;
+  padding-bottom: 0.2em;
+
+  border-radius: 5px;
+  border: 1px solid #f05454;
+}
+
+.contacts-main {
+  background-color: #214252;
+  padding-bottom: 1.2em;
+  border: 1px solid #ce6262;
+}
+
+.contacts-container {
+  background-color: #af2d2d;
+}
+
+.contacts {
+  width: 40%;
+  height: 30%;
+}
+
+.welcome {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+
+  color: #f05454;
+}
+
+.main {
+  font-size: 34px;
+  padding: 1em 1.6em;
+}
+
+
+#profession {
+  color: #ce6262;
+}
+
+.menu {
+  font-size: 25px;
+  padding: 3px;
+}
+
+.menu a,
+.contacts-main a {
+    color: #f05454;
+}
+
+.menu a:hover,
+.contacts-main a:hover {
+  color: #af2d2d;
+}
+
+.contacts .menu {
+  color: #ce6262;
+}
+
+.contacts .menu a:hover {
+  color: #214252;
+}
+
+
+@media screen and (max-width: 600px) {
+  .about-main,
+  .contacts-main,
+  .main,
+  .menu {
+    font-size: 20px;
+  }
+
+  .about img {
+    margin-left: 15%;
+  }
 }
